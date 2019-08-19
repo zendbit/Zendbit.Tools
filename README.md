@@ -3,7 +3,7 @@ Small helper for code productivity
 
 License MIT
 
-Usage Install via nuget Zendbit.Tools
+Search and install the nuget : Zendbit.Tools
 
 ```
 using Zendbit.Tools.Encryption

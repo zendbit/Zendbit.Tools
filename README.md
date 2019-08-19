@@ -4,6 +4,9 @@ Small helper for code productivity
 License MIT
 
 Search and install the nuget : Zendbit.Tools
+```
+Install-Package Zendbit.Tools -Version 1.0.6
+```
 
 ```
 using Zendbit.Tools.Encryption

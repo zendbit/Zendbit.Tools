@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Amru Rosyada</Authors>
+    <Copyright>Zendbit Solution</Copyright>
+    <Owners>Zendbit Solution</Owners>
+    <PackageReleaseNotes>version 1.0.0 contain
+- Crypto tools
+1. SHA1 hash
+2. Base64
+3. XOR encription</PackageReleaseNotes>
+    <Title>Zendbit tools and library</Title>
+    <Description>Tools Helper for simplify:
+
+- Read Write File
+- Create path
+- Encrytption SHA1, XORCrypt, Base64</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+</Project>

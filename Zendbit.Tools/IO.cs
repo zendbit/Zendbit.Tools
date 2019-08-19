@@ -9,8 +9,10 @@ namespace Zendbit.Tools.IO
     */
     public class FileOp
     {
+        public static FileOp New() => new FileOp();
+
         // read file as byte async
-        async public Task<(bool Success, byte[] Result, string Message)> ReadBytesAsync(string path)
+        public async Task<(bool IsSuccess, byte[] Result, string Message)> ReadBytesAsync(string path)
         {
             if (File.Exists(path))
             {
@@ -32,20 +34,20 @@ namespace Zendbit.Tools.IO
         }
 
         // read file async as text
-        async public Task<(bool Success, string Result, string Message)> ReadTextAsync(string path)
+        public async Task<(bool IsSuccess, string Result, string Message)> ReadTextAsync(string path)
         {
             var outData = await ReadBytesAsync(path);
-            if (outData.Success)
-                return (outData.Success, System.Text.Encoding.UTF8.GetString(outData.Result), outData.Message);
-            return (outData.Success, string.Empty, outData.Message);
+            if (outData.IsSuccess)
+                return (outData.IsSuccess, System.Text.Encoding.UTF8.GetString(outData.Result), outData.Message);
+            return (outData.IsSuccess, string.Empty, outData.Message);
         }
 
         // read file as bytes
-        public (bool Success, byte[] Result, string Message) ReadBytes(string path)
+        public (bool IsSuccess, byte[] Result, string Message) ReadBytes(string path)
             => ReadBytesAsync(path).GetAwaiter().GetResult();
 
         // Read text from file
-        public (bool Success, string Result, string Message) ReadText(string path)
+        public (bool IsSuccess, string Result, string Message) ReadText(string path)
             => ReadTextAsync(path).GetAwaiter().GetResult();
     }
 

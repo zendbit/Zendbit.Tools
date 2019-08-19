@@ -1,25 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <PackOnBuild>true</PackOnBuild>
-    <Authors>Amru Rosyada</Authors>
-    <Copyright>Zendbit Solution</Copyright>
-    <Owners>Zendbit Solution</Owners>
-    <PackageReleaseNotes>version 1.0.0 contain
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackOnBuild>true</PackOnBuild>
+        <Authors>Amru Rosyada</Authors>
+        <Copyright>Zendbit Solution</Copyright>
+        <Owners>Zendbit Solution</Owners>
+        <PackageReleaseNotes>version 1.0.0 contain
 - Crypto tools
 1. SHA1 hash
 2. Base64
 3. XOR encription</PackageReleaseNotes>
-    <Title>Zendbit tools and library</Title>
-    <Description>Tools Helper for simplify:
+        <Title>Zendbit tools and library</Title>
+        <Description>Tools Helper for simplify:
 
 - Read Write File
 - Create path
 - Encrytption SHA1, XORCrypt, Base64</Description>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Class1.cs" />
-  </ItemGroup>
+        <PackageProjectUrl>https://github.com/zenvarlab/Zendbit.Tools</PackageProjectUrl>
+        <Summary>Tools collection for small helper and code productivity</Summary>
+        <PackageId>Zendbit.Tools</PackageId>
+        <PackageVersion>1.0.6</PackageVersion>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="NuGet.Build.Packaging" Version="0.2.5-dev.8">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
 </Project>

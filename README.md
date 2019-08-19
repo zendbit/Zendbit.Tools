@@ -20,3 +20,19 @@ var decoded = Base64Crypt.New().Decode(encoded);
 var xorEncrypted = XORCrypt.New().Encode("will encrpted");
 var xorDecrypted = XORCrypt.New().Decode(xorEncrypted);
 ```
+
+```
+using Zendbit.Tools.IO
+
+// read as byte async
+var data = await FileOp.New().ReadBytesAsync("data.txt");
+
+// read as text async
+var data = await FileOp.New().ReadTextAsync("data.txt");
+
+// read as byte
+var data = await FileOp.New().ReadBytes("data.txt");
+
+// read as text
+var data = await FileOp.New().ReadText("data.txt");
+```

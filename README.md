@@ -38,4 +38,13 @@ var data = await FileOp.New().ReadBytes("data.txt");
 
 // read as text
 var data = await FileOp.New().ReadText("data.txt");
+
+// path helper
+// path will return to specific os example for windows and unix is different
+// parameter will using :: delimiter for the path
+// example we use parameter
+// mydata::files::sendit
+// will convert to mydata/files/sendit on unix
+// will convert to mydata\\files\\sendit on windows
+var myPath = FileOp.New().Create("mydata::files::sendit")
 ```

@@ -20,7 +20,7 @@
         <PackageProjectUrl>https://github.com/zenvarlab/Zendbit.Tools</PackageProjectUrl>
         <Summary>Tools collection for small helper and code productivity</Summary>
         <PackageId>Zendbit.Tools</PackageId>
-        <PackageVersion>1.0.6</PackageVersion>
+        <PackageVersion>1.0.7</PackageVersion>
     </PropertyGroup>
     <PropertyGroup>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>

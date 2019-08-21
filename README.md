@@ -34,10 +34,10 @@ var data = await FileOp.New().ReadBytesAsync("data.txt");
 var data = await FileOp.New().ReadTextAsync("data.txt");
 
 // read as byte
-var data = await FileOp.New().ReadBytes("data.txt");
+var data = FileOp.New().ReadBytes("data.txt");
 
 // read as text
-var data = await FileOp.New().ReadText("data.txt");
+var data = FileOp.New().ReadText("data.txt");
 
 // path helper
 // path will return to specific os example for windows and unix is different

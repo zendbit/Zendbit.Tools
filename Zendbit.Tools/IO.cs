@@ -53,6 +53,8 @@ namespace Zendbit.Tools.IO
 
     public class PathOp
     {
+        public static PathOp New() => new PathOp();
+
         // create path with delimiter :: will replaced depend on operating system
         // directory separator
         public string Create(string path)

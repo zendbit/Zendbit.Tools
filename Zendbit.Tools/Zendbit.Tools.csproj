@@ -10,17 +10,19 @@
 - Crypto tools
 1. SHA1 hash
 2. Base64
-3. XOR encription</PackageReleaseNotes>
+3. XOR encryption
+4. AES encryption
+5. MD5 hash</PackageReleaseNotes>
         <Title>Zendbit tools and library</Title>
         <Description>Tools Helper for simplify:
 
 - Read Write File
 - Create path
-- Encrytption SHA1, XORCrypt, Base64</Description>
+- Encrytption SHA1, XORCrypt, Base64, AES, MD5</Description>
         <PackageProjectUrl>https://github.com/zenvarlab/Zendbit.Tools</PackageProjectUrl>
         <Summary>Tools collection for small helper and code productivity</Summary>
         <PackageId>Zendbit.Tools</PackageId>
-        <PackageVersion>1.0.7</PackageVersion>
+        <PackageVersion>1.0.8</PackageVersion>
     </PropertyGroup>
     <PropertyGroup>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>

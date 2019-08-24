@@ -7,3 +7,10 @@ Zendbit\.Tools/obj/
 Zendbit.Tools/.vs/
 
 Zendbit.Tools/.vscode/
+
+.vscode/
+.vs/
+
+
+TestCase/bin/
+TestCase/obj/

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zendbit.Tools", "Zendbit.To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCase", "TestCase\TestCase.csproj", "{9616ECE3-3ABD-45F8-9758-EEEBB884D212}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zendbit.Tools.NetStandard_2_0", "Zendbit.Tools.NetStandard_2_0\Zendbit.Tools.NetStandard_2_0.csproj", "{49FDEAC0-A410-473D-808C-AA02F3A58C4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{9616ECE3-3ABD-45F8-9758-EEEBB884D212}.Release|x64.Build.0 = Release|Any CPU
 		{9616ECE3-3ABD-45F8-9758-EEEBB884D212}.Release|x86.ActiveCfg = Release|Any CPU
 		{9616ECE3-3ABD-45F8-9758-EEEBB884D212}.Release|x86.Build.0 = Release|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Debug|x64.Build.0 = Debug|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Debug|x86.Build.0 = Debug|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Release|x64.ActiveCfg = Release|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Release|x64.Build.0 = Release|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Release|x86.ActiveCfg = Release|Any CPU
+		{49FDEAC0-A410-473D-808C-AA02F3A58C4C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,16 +1,13 @@
 
 \.DS_Store
 
-Zendbit\.Tools/bin/
-Zendbit\.Tools/obj/
+*/.vs/
 
-Zendbit.Tools/.vs/
-
-Zendbit.Tools/.vscode/
+*/.vscode/
 
 .vscode/
 .vs/
 
 
-TestCase/bin/
-TestCase/obj/
+*/bin/
+*/obj/

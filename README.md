@@ -8,6 +8,11 @@ Search and install the nuget : Zendbit.Tools
 Install-Package Zendbit.Tools
 ```
 
+for net standard 2.0
+```
+Install-Package Zendbit.Tools.NetStandard_2_0
+```
+
 ```
 using Zendbit.Tools.Encryption
 
